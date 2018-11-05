@@ -1,4 +1,7 @@
 #!/bin/sh
 echo "Hello, world! The time is $(date) $(whoami)."
-ifconfig
-uname -r
+uname -a
+
+while true; do
+    sleep 1;
+done
